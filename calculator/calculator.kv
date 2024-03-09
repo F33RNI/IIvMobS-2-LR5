@@ -1,20 +1,29 @@
-
 <CustButton@Button>:
     font_size: 32
     background_normal: ''
-    background_color:[242/255.0, 242/255.0, 242/255.0, 1]
-    color: [64/255.0, 64/255.0 ,64/255.0 ,1]
-    
+    background_color: [0.2, 0.2, 0.2, 1]
+    color: [0.9, 0.6, 0.6, 1]
+    size_hint: None, None
+    size: self.texture_size[0] + 20, 70
+    border_radius: [35]
+
 <SignButton@Button>:
     font_size: 32
     background_normal: ''
-    color: [64/255.0, 64/255.0 ,64/255.0 ,1]
-    background_color:[77/255.0, 255/255.0, 77/255.0,1]
+    background_color: [0.2, 0.2, 0.2, 1]
+    color: [0.9, 0.6, 0.6, 1]
+    size_hint: None, None
+    size: self.texture_size[0] + 20, 70
+    border_radius: [35]
+
 <DelButton@Button>:
     font_size: 32
     background_normal: ''
-    color: [64/255.0, 64/255.0 ,64/255.0 ,1]
-    background_color:[238/255.0, 32/255.0, 77/255.0,1]
+    background_color: [0.2, 0.2, 0.2, 1]
+    color: [0.9, 0.6, 0.6, 1]
+    size_hint: None, None
+    size: self.texture_size[0] + 20, 70
+    border_radius: [35]
 
 <CalcGridLayout>:
     id: calculator
@@ -22,7 +31,6 @@
     rows: 6
     padding: 10
     spacing: 20
-
 
     BoxLayout:
         TextInput:
